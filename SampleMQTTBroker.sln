@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMQTTBroker", "SampleMQTTBroker\SampleMQTTBroker.csproj", "{647DBA9C-2021-4551-BAC8-13B0A08A766B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePublisher", "ConsolePublisher\ConsolePublisher.csproj", "{3FCEE66C-8268-405D-9600-48F7D803DDA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSubscriber", "ConsoleSubscriber\ConsoleSubscriber.csproj", "{FEB48AF5-5FAC-4BD7-A5B9-EE2E9697B991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTT.Test", "MQTT.Test\MQTT.Test.csproj", "{DAF45E89-D728-4A5E-AF87-A1D3591AE655}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647DBA9C-2021-4551-BAC8-13B0A08A766B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647DBA9C-2021-4551-BAC8-13B0A08A766B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647DBA9C-2021-4551-BAC8-13B0A08A766B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647DBA9C-2021-4551-BAC8-13B0A08A766B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCEE66C-8268-405D-9600-48F7D803DDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCEE66C-8268-405D-9600-48F7D803DDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCEE66C-8268-405D-9600-48F7D803DDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCEE66C-8268-405D-9600-48F7D803DDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB48AF5-5FAC-4BD7-A5B9-EE2E9697B991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB48AF5-5FAC-4BD7-A5B9-EE2E9697B991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB48AF5-5FAC-4BD7-A5B9-EE2E9697B991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB48AF5-5FAC-4BD7-A5B9-EE2E9697B991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF45E89-D728-4A5E-AF87-A1D3591AE655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF45E89-D728-4A5E-AF87-A1D3591AE655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF45E89-D728-4A5E-AF87-A1D3591AE655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF45E89-D728-4A5E-AF87-A1D3591AE655}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B865C160-2712-41A0-8940-C48D290FF54A}
+	EndGlobalSection
+EndGlobal
